@@ -1,0 +1,12 @@
+<h1>Details about your restaurant</h1>
+
+<h2><%= @restaurant.name %></h2>
+<h2><%= @restaurant.category %></h2>
+<h2><%= @restaurant.address %></h2>
+<h2><%= @restaurant.phone_number %></h2>
+
+<p><%= link_to "Go back to overview page", restaurants_path %></p>
+<p><%= link_to "Go to reviews", new_restaurant_review_path(@restaurant) %></p>
+
+
+
